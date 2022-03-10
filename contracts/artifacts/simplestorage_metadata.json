@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_dna",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "CreateZombie",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/simplestorage.sol": "simplestorage"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/simplestorage.sol": {
+			"keccak256": "0xf8a895ae2f928319ebdbf8e9e7dc308de2bd84ac193e860289fe198b568d71a8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://76f47d0539b21cd70207f16fe339ac671b4c43a7e6fe579b70e7b6f119b2784c",
+				"dweb:/ipfs/QmRpRUZSuuygomNJ9WYJn1uNPAfV6tKcsEwQecq6msUKVM"
+			]
+		}
+	},
+	"version": 1
+}
